@@ -1,0 +1,49 @@
+{
+  "name": "grunt-emblem-handlebars",
+  "description": "Grunt task for the emblem.js templating language",
+  "homepage": "https://github.com/modalstudios/grunt-contrib-emblem",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modalstudios/grunt-contrib-emblem.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/modalstudios/grunt-contrib-emblem/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/modalstudios/grunt-contrib-emblem/issues"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt --debug-brk $(which grunt) --stack test"
+  },
+  "devDependencies": {
+    "mocha": "1.4.x",
+    "grunt-simple-mocha": "0.3.x",
+    "matchdep": "~0.1.1",
+    "should": "~1.2.2",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-coffee": "~0.6.0",
+    "grunt-contrib-watch": "~0.2.0"
+  },
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "grunt-lib-contrib": "~0.5.1",
+    "emblem": "~0.3.4",
+    "handlebars":"~1.0.12"
+  },
+  "keywords": [
+    "gruntplugin",
+    "ember",
+    "emblem",
+    "handlebars",
+    "templates",
+    "precompile"
+  ]
+}
